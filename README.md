@@ -1,7 +1,5 @@
-**The Young Hackers**
+**The Young Hackers** [(younghackers.us)](http://younghackers.us/)
 ============
-[younghackers.us](http://younghackers.us/)
-
 A team of high schoolers working to connect and inspire others through organizing hackathons!
 
 Our previous hackathons include:
