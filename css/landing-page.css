@@ -114,7 +114,7 @@ h6 {
 .services {
     color: #514E5A;
     background-color: #f5f5f5;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
 }
 .services .info {
     margin-bottom: 6em;
@@ -144,13 +144,10 @@ h6 {
     font-size: 17px;
     text-align: left;
 }
-.service-item a {
-    color: #3977FF;
-    text-decoration: none !important; 
-}
 .who {
     background-color: #DFDFDF !important;
     overflow: hidden;
+    padding-bottom: 8em !important;
 }
 .who .section-heading {
     text-align: center;
@@ -179,6 +176,15 @@ h6 {
 }
 footer {
     overflow: hidden;
+}
+a {
+    color: #7858A4;
+
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 @media(max-width:767px) {
