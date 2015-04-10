@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: #f5f5f5;
 }
 
 body,
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
     font-weight: 700;
 }
 
@@ -41,11 +42,11 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/everyoneAtLHD2.png) no-repeat center center;
-    background-size: 100% 100%;
+    background: url(../img/coverphotodark.png) no-repeat center center;
+    background-size: 100%;
     background-position: center;
     background-attachment: center;
-
+    overflow: hidden;
 }
 
 .intro-message {
@@ -62,12 +63,122 @@ h6 {
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
+    border-top: 1px solid #a9a9a9;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.navbar {
+    background-color: #EAEAEA;
+    overflow: hidden;
+}
+
+.logo {
+    height: 15px;
+    width: 16px;
+    margin-right: 4px;
+    display: inline-block;
+    background-image: url(../img/yhlogohead.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title {
+    color: #C195FF;
+}
+
+.description {
+    margin-top: 0.2em;
+    font-size: 2em;
+    color: #FFFE86;
+}
+
+.btn {
+    background-color: #f5f5f5;
+    border-color: #d2d2d2;
+    color: #514E5A;
+
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+.btn:hover {
+    background-color: #d2d2d2;
+}
+
+.services {
+    color: #514E5A;
+    background-color: #f5f5f5;
+    padding-bottom: 4em;
+}
+.services .info {
+    margin-bottom: 6em;
+}
+.services .picture {
+    /*margin-left: 0;*/
+}
+.services h3 {
+    text-align: left;
+    font-size: 23px;
+}
+.services h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 45px;
+}
+.services img {
+    height: 100%;
+    width: 100%;
+}
+.service-item h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 27px;
+}
+.service-item p {
+    font-size: 17px;
+    text-align: left;
+}
+.service-item a {
+    color: #3977FF;
+    text-decoration: none !important; 
+}
+.who {
+    background-color: #DFDFDF !important;
+    overflow: hidden;
+}
+.who .section-heading {
+    text-align: center;
+    color: #333333;
+}
+.who h2 {
+    font-size: 20px;
+}
+.co {
+    width: 50% !important;
+}
+.spons {
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.spons .section-heading {
+    text-align: center;
+    color: #514E5A;
+}
+.spons .thumbnail {
+    border: none;
+    background-color: transparent; 
+}
+.col-xs-6 {
+    width: 25%;
+}
+footer {
+    overflow: hidden;
 }
 
 @media(max-width:767px) {
@@ -114,6 +225,7 @@ h6 {
 
 .section-heading {
     margin-bottom: 30px;
+    font-size: 45px !important;
 }
 
 .section-heading-spacer {
@@ -171,9 +283,24 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #EAEAEA;
 }
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+
+@media screen and (max-width: 550px) {
+    .intro-header {
+        background-size: auto 100% !important;
+    }
+    .network-name {
+        font-size: 9px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .col-xs-6 {
+        width: 50%;
+    }
 }
