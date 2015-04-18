@@ -190,6 +190,10 @@ h6 {
     margin: 5px;
     width:32%;
 }
+a.right {
+   margin-right: 0.5em;
+  font-size: 3em;
+}
 footer {
     overflow: hidden;
 }
@@ -201,6 +205,9 @@ a {
     -ms-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
     transition: all 400ms ease-out;
+}
+a :hover{
+  color: #514E5A;
 }
 
 @media(max-width:767px) {
