@@ -183,6 +183,13 @@ h6 {
 .col-xs-6 {
     width: 25%;
 }
+.thumb{
+    margin: 0px;
+}
+.thumb-b{
+    margin: 5px;
+    width:30%;
+}
 footer {
     overflow: hidden;
 }
