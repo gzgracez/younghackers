@@ -43,7 +43,8 @@ h6 {
     text-align: center;
     color: #2e2d2d;
     background-color: #2e2d2d;
-    background: url(../img/coverphotodark.jpg) no-repeat center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/everyoneAtLHD2015.jpg) no-repeat center center;;
+/*    background: url(../img/everyoneAtLHD2015.jpg) no-repeat center center;*/
     background-size: 100%;
     background-position: center;
     background-attachment: center;
@@ -90,19 +91,31 @@ h6 {
 }
 
 .title {
-    color: #C195FF;
+    color: #FFF/*#cc99ff*/;
+    
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
 }
 
 .description {
     margin-top: 0.2em;
     font-size: 2em;
-    color: #FFFE86;
+    color: #FFF;
+    
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
 }
 
 .btn {
-    background-color: #ededed;
-    border-color: #d2d2d2;
-    color: #514E5A;
+    background-color: #FFF;/*#FFFFB3;/*#ededed;*/
+    border-color: #FFF;/*#d2d2d2;*/
+    color: #000;
 
     -webkit-transition: all 250ms ease-out;
     -moz-transition: all 250ms ease-out;
@@ -110,8 +123,15 @@ h6 {
     -o-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
 }
+.title:hover {
+    color: #cc99ff;
+}
+.description:hover {
+    color: #cc99ff;
+}
 .btn:hover {
-    background-color: #d2d2d2;
+    background-color: #FFFFB3;
+    border-color: #FFF;
 }
 
 .oimg{
@@ -159,7 +179,7 @@ h6 {
 .who {
     background-color: #DFDFDF !important;
     overflow: hidden;
-    padding-bottom: 8em !important;
+    padding-bottom: 0em !important;
 }
 .who .section-heading {
     text-align: center;
@@ -346,4 +366,8 @@ p.copyright {
     .col-xs-6 {
         width: 50%;
     }
+}
+
+#alumnus {
+    padding-bottom: 40px;
 }
