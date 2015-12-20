@@ -268,19 +268,25 @@ h6 {
 }
 .thumb-b{
     margin: 5px;
-    width:32%;
+    width:24%;
 }
 .thumb-g{
     position: relative;
     margin: 5px;
-    width: 28%;
+    width: 24%;
+    text-align: center;
 }
 .thumb-g1{
     position: relative;
     left: 4%;
     margin: 5px;
-    width: 33%;
+    width: 24%;
 }
+
+#squareLogos1 {
+    text-align: center;
+}
+
 a.right {
    margin-right: 0.5em;
   font-size: 3em;
