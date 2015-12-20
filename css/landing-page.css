@@ -43,7 +43,7 @@ h6 {
     text-align: center;
     color: #2e2d2d;
     background-color: #2e2d2d;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/everyoneAtLHD2015.jpg) no-repeat center center;;
+    background: url(../img/everyoneAtLHD2.png) no-repeat center center;
 /*    background: url(../img/everyoneAtLHD2015.jpg) no-repeat center center;*/
     background-size: 100%;
     background-position: center;
@@ -91,7 +91,7 @@ h6 {
 }
 
 .title {
-    color: #FFF/*#cc99ff*/;
+    color: #FFF;
     
     -webkit-transition: all 250ms ease-out;
     -moz-transition: all 250ms ease-out;
@@ -136,6 +136,63 @@ h6 {
 
 .oimg{
   padding: 1px;
+}
+
+#tabs-min { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs-min .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 1px solid #c0c0c0; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none;
+} 
+
+#tabs-min .ui-tabs-nav {
+    text-align: center;
+}
+
+#tabs-min .ui-tabs-nav li{
+    display: inline-block; 
+    float: none; 
+    top: 0px; 
+    margin: 0em; 
+    padding-bottom: 0px; 
+}
+
+#tabs-min .ui-tabs-nav .ui-state-active { 
+    background: transparent url(../img/uiTabsArrowTLarge.png) no-repeat bottom center; 
+    border: none; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-default a { 
+    color: #c0c0c0; 
+    font-weight: normal;
+} 
+
+#tabs-min .ui-tabs-nav .ui-state-active a { 
+    color: #7858A4; 
+    font-weight: bold;
+}
+
+/*#tabs-min .ui-tabs-nav .ui-state-hover a { 
+    color: #FFFFB3; 
+    font-weight: bold;
+}
+
+#tabs-min .ui-tabs-nav .ui-state-focus a { 
+    color: #FFFFB3; 
+    font-weight: bold;
+}*/
+
+#tabTitle{
+    font-size: 24px;
 }
 
 .services {
