@@ -268,12 +268,14 @@ h6 {
 }
 .thumb-b{
     margin: 5px;
-    width:24%;
+    width:22%;
+    left: 15px;
 }
 .thumb-g{
     position: relative;
     margin: 5px;
-    width: 24%;
+    left: 15px;
+    width: 22%;
     text-align: center;
 }
 .thumb-g1{
