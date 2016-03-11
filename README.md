@@ -3,6 +3,7 @@
 A team of high schoolers working to connect and inspire others through organizing hackathons!
 
 Our previous hackathons include:
+* Hip Hop Hacks (April 2nd-3rd, 2016): [Hip Hop Hacks Website](http://hiphophacks.younghackers.us/)
 * YH: Local Hack Day 2015 (October 10, 2015): [YH: Local Hack Day 2015 Website](http://localhackday2015.younghackers.us/)
 * YH: Iron Hacks (February 28, 2015): [YH: Iron Hacks Website](http://ironhacks.younghackers.us/)
 * SocialGoodHacks (January 31, 2015): [SocialGoodHacks](http://socialgoodhacks.splashthat.com/)
