@@ -431,8 +431,15 @@ p.copyright {
     .col-xs-6 {
         width: 50%;
     }
+    .none {
+      display: none !important;
+    }
 }
 
 #alumnus {
     padding-bottom: 40px;
+}
+
+.none {
+  display: block;
 }
